@@ -15,7 +15,7 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 |
 */
 
-// Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']], function () {
+Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']], function () {
     /** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
     Auth::routes(['verify' => true]);
 
@@ -81,4 +81,4 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
     Route::get('privacy', function () {
         return '<h1>Privacy Policy</h1>';
     });
-// });
+});
