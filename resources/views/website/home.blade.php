@@ -128,7 +128,7 @@
                                             <div class="card-item card-preview"
                                                  data-tooltip-content="#tooltip_content_2">
                                                 <div class="card-image">
-                                                    <a href="#" class="card__img"><img
+                                                    <a href="#" class="card__img"><img loading="lazy"
                                                             src="{{ asset($course->image) }}" alt=""></a>
                                                 </div><!-- end card-image -->
                                                 <div class="card-content">
@@ -198,7 +198,7 @@
                                             <div class="card-item card-preview"
                                                  data-tooltip-content="#tooltip_content_2">
                                                 <div class="card-image">
-                                                    <a href="#" class="card__img"><img
+                                                    <a href="#" class="card__img"><img loading="lazy"
                                                             src="{{ asset($course->image) }}" alt=""></a>
                                                 </div><!-- end card-image -->
                                                 <div class="card-content">
@@ -268,7 +268,7 @@
                                             <div class="card-item card-preview"
                                                  data-tooltip-content="#tooltip_content_2">
                                                 <div class="card-image">
-                                                    <a href="#" class="card__img"><img
+                                                    <a href="#" class="card__img"><img loading="lazy"
                                                             src="{{ asset($course->image) }}" alt=""></a>
                                                 </div><!-- end card-image -->
                                                 <div class="card-content">
@@ -460,7 +460,7 @@
                 <div class="col-lg-4 column-td-half">
                     <div class="post-card post-card-layout-2">
                         <div class="post-card-content">
-                            <img src="{{ asset('images/img23.jpg') }}" alt="" class="img-fluid">
+                            <img loading="lazy" src="{{ asset('images/img23.jpg') }}" alt="" class="img-fluid">
                             <h2 class="widget-title mt-4 mb-2">@lang('site.personalized_learning')</h2>
                             <p>@lang('site.personalized_learning_text')</p>
                         </div><!-- end post-card-content -->
@@ -469,7 +469,7 @@
                 <div class="col-lg-4 column-td-half">
                     <div class="post-card post-card-layout-2">
                         <div class="post-card-content">
-                            <img src="{{ asset('images/img37.jpg') }}" alt="" class="img-fluid">
+                            <img loading="lazy" src="{{ asset('images/img37.jpg') }}" alt="" class="img-fluid">
                             <h2 class="widget-title mt-4 mb-2">@lang('site.trusted_content')</h2>
                             <p>@lang('site.trusted_content_text')</p>
                         </div><!-- end post-card-content -->
@@ -478,7 +478,7 @@
                 <div class="col-lg-4 column-td-half">
                     <div class="post-card post-card-layout-2">
                         <div class="post-card-content">
-                            <img src="{{ asset('images/img34.jpg') }}" alt="" class="img-fluid">
+                            <img loading="lazy" src="{{ asset('images/img34.jpg') }}" alt="" class="img-fluid">
                             <h2 class="widget-title mt-4 mb-2">@lang('site.empower_teachers')</h2>
                             <p>@lang('site.empower_teachers_text')</p>
                         </div><!-- end post-card-content -->
