@@ -4,13 +4,13 @@
 <!-- CSRF Token -->
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <!-- Google fonts -->
-{{-- @if(app()->getLocale() == 'ar')
+@if(app()->getLocale() == 'ar')
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
           rel="stylesheet">
 @else
-@endif --}}
-<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+@endif
 
 <!-- Favicon -->
 <link rel="icon" sizes="16x16" href="{{ asset('images/favicon.png') }}">
