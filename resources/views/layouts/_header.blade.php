@@ -26,7 +26,7 @@
                         <div class="col-lg-2">
                             <div class="logo-box">
                                 <a href="{{ route('home') }}" class="logo">
-                                    <img
+                                    <img loading="lazy"
                                         src="{{ setting('website_logo') ? asset(setting('website_logo')) : asset('images/logo.png') }}"
                                         alt="logo" style="max-height: 70px;">
                                 </a>
@@ -44,7 +44,7 @@
                         <div class="col-lg-2">
                             <div class="logo-box">
                                 <a href="{{ route('home') }}" class="logo">
-                                    <img
+                                    <img loading="lazy"
                                         src="{{ setting('website_logo') ? asset(setting('website_logo')) : asset('images/logo.png') }}"
                                         alt="logo" style="max-height: 70px;">
                                 </a>
@@ -118,7 +118,7 @@
                                                         @forelse($header_cart_items as $item)
                                                             <li>
                                                                 <a href="{{ route('cart.index') }}" class="cart-link">
-                                                                    <img src="{{ asset($item->course->small_image) }}"
+                                                                    <img loading="lazy" src="{{ asset($item->course->small_image) }}"
                                                                          alt="{{ $item->course->title }}">
                                                                 </a>
                                                                 <p class="cart-info">
@@ -166,7 +166,7 @@
                                                             class="notification-btn dropdown-toggle"
                                                             type="button" id="userDropdownMenu" data-toggle="dropdown"
                                                             aria-haspopup="true" aria-expanded="false">
-                                                            <img src="{{ auth()->user()->avatar }}"
+                                                            <img  loading="lazy" src="{{ auth()->user()->avatar }}"
                                                                  alt="{{ auth()->user()->name }}" class="profile_pic">
                                                         </button>
                                                         <div class="dropdown-menu" aria-labelledby="userDropdownMenu">
@@ -174,7 +174,7 @@
                                                                 <div class="mess__title d-flex align-items-center">
                                                                     <div class="image">
                                                                         <a href="#">
-                                                                            <img
+                                                                            <img loading="lazy"
                                                                                 src="{{ strpos(auth()->user()->avatar, 'avatar.png') !== false ? asset('images/avatar_white.png') : auth()->user()->avatar }}"
                                                                                 alt="{{ auth()->user()->name }}"
                                                                                 class="profile_pic">
@@ -352,7 +352,7 @@
                                                         <div class="mess__title d-flex align-items-center">
                                                             <div class="image">
                                                                 <a href="#">
-                                                                    <img
+                                                                    <img loading="lazy"
                                                                         src="{{ strpos(auth()->user()->avatar, 'avatar.png') !== false ? asset('images/avatar_white.png') : auth()->user()->avatar }}"
                                                                         alt="{{ auth()->user()->name }}"
                                                                         class="profile_pic">

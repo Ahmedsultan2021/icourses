@@ -98,18 +98,18 @@
                                         @lang('site.trending_courses')
                                     </a>
                                 </li>
-                                {{-- <li role="presentation">
+                                <li role="presentation">
                                     <a href="#tab2" role="tab" data-toggle="tab" class="theme-btn radius-rounded"
                                        aria-selected="false">
                                         @lang('site.most_popular_courses')
                                     </a>
-                                </li> --}}
-                                {{-- <li role="presentation">
+                                </li>
+                                <li role="presentation">
                                     <a href="#tab3" role="tab" data-toggle="tab" class="theme-btn radius-rounded"
                                        aria-selected="false">
                                         @lang('site.most_recent_courses')
                                     </a>
-                                </li> --}}
+                                </li>
                             </ul>
                         </div><!-- end section-tab -->
                     </div><!-- end col-lg-12 -->
@@ -191,7 +191,7 @@
                                     @endforeach
                                 </div><!-- end course-block -->
                             </div><!-- end tab-pane -->
-                            {{-- <div role="tabpanel" class="tab-pane fade" id="tab2">
+                            <div role="tabpanel" class="tab-pane fade" id="tab2">
                                 <div class="row">
                                     @foreach($most_popular_courses as $course)
                                         <div class="col-lg-4 column-td-half">
@@ -260,8 +260,8 @@
                                         </div><!-- end col-lg-4 -->
                                     @endforeach
                                 </div><!-- end course-block -->
-                            </div><!-- end tab-pane --> --}}
-                            {{-- <div role="tabpanel" class="tab-pane fade" id="tab3">
+                            </div><!-- end tab-pane -->
+                            <div role="tabpanel" class="tab-pane fade" id="tab3">
                                 <div class="row">
                                     @foreach($most_recent_courses as $course)
                                         <div class="col-lg-4 column-td-half">
@@ -330,7 +330,7 @@
                                         </div><!-- end col-lg-4 -->
                                     @endforeach
                                 </div><!-- end course-block -->
-                            </div><!-- end tab-pane --> --}}
+                            </div><!-- end tab-pane -->
                         </div><!-- end tab-content -->
                     </div><!-- end col-lg-12 -->
                 </div><!-- end row -->

@@ -499,8 +499,5 @@
                 </div><!-- end card-content-wrapper -->
             </div><!-- end container -->
         </div><!-- end course-wrapper -->
-    </section><!-- end courses-area -->
-    <!--======================================
-    END COURSE AREA
-    ======================================-->
+    </section>
 @endsection
